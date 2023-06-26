@@ -9,11 +9,11 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <>
-      {/* <Homepage /> */}
+      <Homepage />
       {/* <About /> */}
     {/* // <Projects/> */}
     {/* <Experience/> */}
-     <Contact/>
+     {/* <Contact/> */}
     </>
   );
 }
