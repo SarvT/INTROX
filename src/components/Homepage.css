@@ -52,12 +52,12 @@ body {
     margin: 0 auto;
     /* text-align: center; */
     width: 60%;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 
-.main-txt p:hover{
+/* .main-txt p:hover{
     opacity: 100%;
-}
+} */
 
 .container{
     text-align: center;
