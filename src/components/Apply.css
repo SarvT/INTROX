@@ -1,34 +1,162 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
 }
 
-.subhead{
+.subhead2{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Projects */
+
+.projects-showcase {
+    display: flex;
+    justify-content: center;
+    margin: 0 8rem;
+}
+
+
+.project-slide {
+    width: 28rem;
+    height: auto;
+    margin: 3rem;
+}
+
+.project-slide img {
+    /* padding: 1rem; */
+    
+}
+
+
+
+.project-slide img:hover {
+    border: 2px solid #f5cb86;
+    /* width: 24rem; */
+    /* transform: scale(101%); */
+    /* transition: ease-in-out 0.5s; */
+    /* width: ; */
+}
+
+.project-slide p {
+    opacity: 70%;
+}
+
+.project-slide p:hover {
+    opacity: 100%;
+}
+
+
+.contact-section{
+    margin:  4rem;
+    position: absolute;
+    left: 0;
+    width: 40vw;
+    height: auto;
+    text-align: center;
+
+}
+
+.contact-section p{
+    opacity: 60%;
+    margin-bottom: 1.4rem;
+}
+
+.form-div{
+    padding: 2rem;
+    margin: 2rem;
+    position: absolute;
+    right: 0;
+    /* height: auto; */
+    width: 40vw;
+
+    box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.5);
+}
+
+.form-div button{
+    
+    width: 22rem;
+    height: 2rem;
+    border: 2px black;
+    /* border-radius: 20px; */
+    background-color: transparent;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5); 
+    margin: 2rem 0;
+}
+
+.form-element{
+    /* margin: auto; */
+    /* width: 50%; */
+    /* height: 50px; */
+}
+
+.form{
+    /* position: relative; */
+}
+
+.form input {
+    background-color: transparent;
+    width: 22rem;
+    padding: 0.7rem 1rem;
+    border: hidden;
+    /* margin: 0.7rem 1rem; */
+    
+    /* display: inline-block; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
+
+.form input::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background: #f5cb86;
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+}
+
+.form label {
+    /* margin: 1rem 0.7rem; */
+}
+/* about */
+.about {
+    height: 100vh;
+    width: auto;
+}
+
+.project {
+    height: 100vh;
+    width: auto;
+}
+
+.experience {
+    height: 100vh;
+    width: auto;
+}
+
+.contact {
+    height: 100vh;
+    width: auto;
+}
+
+.subhead {
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     margin: 0.5rem;
     text-align: center;
 }
 
-.desc p{
+.desc p {
     margin: 1rem 6rem;
     text-align: center;
     /* width: 80; */
     /* display: flex;
     justify-content: center; */
-}
-
-.form input{
-    padding: 0.7rem 1rem;
-    margin: 0.7rem 1rem;
-    display: inline-block;
-    box-sizing: border-box;
-    width:100%;
-    border-radius: 1.5rem;
-    /* display: table-cell; */
-    /* vertical-align: middle; */
-}
-
-.form label{
-    margin: 1rem 0.7rem;
 }
