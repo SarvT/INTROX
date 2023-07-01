@@ -10,29 +10,29 @@ import Homepage from "./components/Homepage";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <App />,
     errorElement: <ErrorPage/>
   },
-  // {
-  //   path: "/about",
-  //   element: <About />,
-  //   errorElement: <ErrorPage/>
-  // },
-  // {
-  //   path: "/contact",
-  //   element: <Contact />,
-  //   errorElement: <ErrorPage/>
-  // },
-  // {
-  //   path: "/experience",
-  //   element: <Experience />,
-  //   errorElement: <ErrorPage/>
-  // },
-  // {
-  //   path: "/projects",
-  //   element: <Projects />,
-  //   errorElement: <ErrorPage/>
-  // },
+  {
+    path: "/about",
+    element: <About />,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/experience",
+    element: <Experience />,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+    errorElement: <ErrorPage/>
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
