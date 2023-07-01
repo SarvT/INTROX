@@ -145,10 +145,8 @@ export default function Homepage() {
         </nav>
       </div>
 
-    <div id="projects" title="projects">
-
+      <Experience/>
       <Project />
-    </div>
       <Contact />
       <About />
     </>

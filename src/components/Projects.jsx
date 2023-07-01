@@ -3,14 +3,7 @@ import { useState, useEffect } from "react";
 
 import "./Apply.css";
 
-import ph from "../assets/phone1.jpg";
-import ph2 from "../assets/phone2.jpg";
-import ph3 from "../assets/phone3.jpg";
-import ph4 from "../assets/phone4.jpg";
-import ph5 from "../assets/phone5.jpg";
-import Carasoul from "./Carasoul";
 import { FiCode, FiInstagram } from "react-icons/fi";
-import ModCarasoul from "./ModCarasoul";
 
 const slidesData = [
   [

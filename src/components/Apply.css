@@ -15,10 +15,6 @@
 /* Projects */
 
 
-.project{
-}
-
-
 .carasoul{
     padding: 4rem;
     margin: 4rem 0;
@@ -59,9 +55,6 @@
 
 }
 
-.project-slide .img {
-
-}
 
 .project-slide .head{
     font-size: 1rem;
@@ -72,9 +65,6 @@
     margin: 0;
 }
 
-.project-slide .details{
-    
-}
 
 
 
@@ -138,15 +128,6 @@
     margin: 2rem 0;
 }
 
-.form-element{
-    /* margin: auto; */
-    /* width: 50%; */
-    /* height: 50px; */
-}
-
-.form{
-    /* position: relative; */
-}
 
 .form input {
     background-color: transparent;
@@ -172,9 +153,6 @@
     bottom: 0.5rem;
 }
 
-.form label {
-    /* margin: 1rem 0.7rem; */
-}
 /* about */
 .about-me{
     background-color: #17181d;

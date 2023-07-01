@@ -3,59 +3,44 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ErrorPage from "./error-handle";
-import Homepage from "./components/Homepage";
+import { BrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: "/about",
-    element: <About />,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: "/experience",
-    element: <Experience />,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-    errorElement: <ErrorPage/>
-  },
-]);
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//     errorElement: <ErrorPage/>
+//   },
+//   {
+//     path: "/about",
+//     element: <About />,
+//     errorElement: <ErrorPage/>
+//   },
+//   {
+//     path: "/contact",
+//     element: <Contact />,
+//     errorElement: <ErrorPage/>
+//   },
+//   {
+//     path: "/experience",
+//     element: <Experience />,
+//     errorElement: <ErrorPage/>
+//   },
+//   {
+//     path: "/projects",
+//     element: <Projects />,
+//     errorElement: <ErrorPage/>
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />}></Route>
-      </Routes>
-    </BrowserRouter> */}
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" Component={<Homepage />}>
-          <Route index element={<Homepage />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/contact" Component={<Contact />} />
-          <Route path="/about" Component={<About />} />
-          {/* <Route path="*" element={<NoPage />} /> 
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
 
-    <RouterProvider router={router}> </RouterProvider>
+<BrowserRouter>
+    <App />
+  </BrowserRouter>,  
   </React.StrictMode>
 );
 
@@ -63,3 +48,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+{/* <RouterProvider router={router}> </RouterProvider> */}
