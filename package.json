@@ -1,6 +1,6 @@
 {
   "name": "introx",
-  "homepage": "https://sarvt.github.io/Introx",
+  "homepage": "https://sarvt.github.io/Introx/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-vertical-timeline-component": "^3.6.0",
     "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
   },

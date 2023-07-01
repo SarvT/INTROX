@@ -4,7 +4,7 @@ import "./Apply.css";
 export default function Contact() {
   return (
     <div>
-      <div className="contact">
+      <div className="contact" >
 
         <div className="contact-section">
         <h3 className="subhead">contact</h3>
