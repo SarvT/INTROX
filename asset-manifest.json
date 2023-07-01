@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/introx/static/css/main.4c02f4ae.css",
-    "main.js": "/introx/static/js/main.1357c6c7.js",
-    "static/js/787.39f97fe1.chunk.js": "/introx/static/js/787.39f97fe1.chunk.js",
-    "static/media/phone1.jpg": "/introx/static/media/phone1.24aa559e9e4d06316c3c.jpg",
-    "index.html": "/introx/index.html",
-    "main.4c02f4ae.css.map": "/introx/static/css/main.4c02f4ae.css.map",
-    "main.1357c6c7.js.map": "/introx/static/js/main.1357c6c7.js.map",
-    "787.39f97fe1.chunk.js.map": "/introx/static/js/787.39f97fe1.chunk.js.map"
+    "main.css": "/Introx/static/css/main.10a6e1fe.css",
+    "main.js": "/Introx/static/js/main.7fce78a5.js",
+    "static/js/787.39f97fe1.chunk.js": "/Introx/static/js/787.39f97fe1.chunk.js",
+    "static/media/phone1.jpg": "/Introx/static/media/phone1.24aa559e9e4d06316c3c.jpg",
+    "index.html": "/Introx/index.html",
+    "main.10a6e1fe.css.map": "/Introx/static/css/main.10a6e1fe.css.map",
+    "main.7fce78a5.js.map": "/Introx/static/js/main.7fce78a5.js.map",
+    "787.39f97fe1.chunk.js.map": "/Introx/static/js/787.39f97fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c02f4ae.css",
-    "static/js/main.1357c6c7.js"
+    "static/css/main.10a6e1fe.css",
+    "static/js/main.7fce78a5.js"
   ]
 }
