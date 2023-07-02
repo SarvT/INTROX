@@ -1,5 +1,6 @@
 import React from "react";
 import "./Apply.css";
+import compdesk from "../assets/comp-desk.jpg"
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
       <div id="about" className="about" style={{marginTop:"20rem"}}>
         <h3 className="subhead">about</h3>
 
-        <div className="about-me">
+        <div className="about-me" style={{width:"40vw", position:"absolute"}}>
 
         <span className="desc">
           <p>
@@ -20,6 +21,11 @@ export default function About() {
         </span>
         </div>
       </div>
+
+      {/* <div className="about-img" style={{width:"40vw", }}>
+        <img style={{height:"22rem", right:"0", position:"absolute", margin:" 0 12rem"}} src={compdesk} alt="" />
+      </div> */}
     </div>
   );
 }
+

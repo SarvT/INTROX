@@ -47,6 +47,7 @@
     margin: 3rem 5rem;
     box-shadow: 12px 12px 15px 6px rgba(0, 0, 0, 0.2) ;
     
+    border: 2px solid #f5cb86;
 }
 
 .project-slide:hover{
@@ -66,16 +67,6 @@
 }
 
 
-
-
-.project-slide img:hover {
-    border: 2px solid #f5cb86;
-    /* width: 24rem; */
-    /* transform: scale(101%); */
-    /* transition: ease-in-out 0.5s; */
-    /* width: ; */
-}
-
 .project-slide p {
     opacity: 70%;
 }
@@ -89,6 +80,7 @@
 
 .contact{
     margin-top: 20rem;
+    overflow: auto;
 }
 
 .contact-section{
@@ -163,10 +155,15 @@
     left: 0%;
     width: 50vw;
     height: 50vh;
+    border: #f5cb86 3px solid;
+    overflow: auto;
     box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2) ;
 }
 
+
+/* everything */
 .about {
+    
     height: 100vh;
     width: auto;
 }
@@ -186,6 +183,11 @@
     width: auto;
 }
 
+.about-img{
+}
+/* end */
+
+
 .subhead {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -196,7 +198,74 @@
 .desc p {
     margin: 1rem 6rem;
     text-align: center;
+    max-width: 42rem;
     /* width: 80; */
     /* display: flex;
     justify-content: center; */
 }
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+/* @media screen and (max-width: 992px) {
+
+} */
+
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 740px) {
+    .slides{
+        display: block;
+        
+    }
+    .project-slide {
+
+        padding: 1rem;
+        max-width: 20rem;
+        width: 20rem;
+        height: auto;
+        margin: 2rem auto;
+        display: block;
+        
+    }
+    .project-slide .img{
+        font-size: 220px;
+    }
+} */
+
+
+/* contact */
+/* .contact{
+    margin-top: 120rem;
+}
+
+.contact-section{
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.form-div{
+    padding: 3rem;
+    width: 22rem;
+    margin: auto;
+    left: 0;
+}
+
+.form-div input{
+    width: 11rem;
+    height: auto;
+    text-align: center;
+} */
+
+
+/* about */
+/* .about-me{
+    width: auto;
+    padding: 1rem 0;
+    margin: 1.5rem;
+}
+
+.desc p{
+    margin: 2rem;
+} */

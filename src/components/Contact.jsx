@@ -16,6 +16,8 @@ export default function Contact() {
         <h4 className="subhead2">Email</h4>
         <p>example@gmail.com</p>
           </div>
+
+          
           <div className="form-div">
         <h3 className="subhead">contact form</h3>
             <form className="form" action="/" method="post">

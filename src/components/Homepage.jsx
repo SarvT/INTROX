@@ -37,8 +37,8 @@ export default function Homepage() {
       <div className="home-page">
         {/* Logo */}
         <div className="logo">
-          <Link to={"/"}>
-            <FiFacebook />
+          <Link onClick={scroll.scrollToTop}>
+            <FiCode />
           </Link>
         </div>
 
@@ -59,7 +59,7 @@ export default function Homepage() {
               Homepage
             </Link>
             <Link
-            // to={"projects"}
+              // to={"projects"}
               className="nav-item"
               onClick={scroll.scrollTo(111, {})}
               activeClass="active"
@@ -128,16 +128,19 @@ export default function Homepage() {
         </div>
 
         {/* Bottom Nav */}
-        <nav>
+        <nav className="bottom-nav">
           <div className="nav-items">
-            <Link className="nav-item" to={"/"}>
+            <Link className="nav-item" to={"https://github.com/sarvT"}>
               <FiGithub />
             </Link>
-            <Link className="nav-item" to={"/"}>
+            <Link
+              className="nav-item"
+              to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}
+            >
               {" "}
               <FiLinkedin />{" "}
             </Link>
-            <Link className="nav-item" to={"/"}>
+            <Link className="nav-item" to={"https://leetcode.com/sarveshmt_/"}>
               {" "}
               <FiCode />
             </Link>
@@ -145,11 +148,10 @@ export default function Homepage() {
         </nav>
       </div>
 
-      <Experience/>
+      <Experience />
       <Project />
       <Contact />
       <About />
     </>
-    
   );
 }

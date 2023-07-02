@@ -38,7 +38,7 @@ export default function Projects() {
             </div>
 
             <div className="img">
-              <FiCode size={240} />
+              <FiCode  />
             </div>
           </div>
           <div className="project-slide">

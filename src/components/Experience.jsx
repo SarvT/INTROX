@@ -26,6 +26,7 @@ export default function Experience() {
       <div className="experience" id="experience" style={{marginTop:"20rem"}}>
         <h3 className="subhead">experience</h3>
 
+        {/* <div className="vertical-timeline"> */}
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -54,6 +55,7 @@ export default function Experience() {
             date={slidesData[1][3]}
             iconStyle={{ background: "#17181d", color: "#fff" }}
             icon={<FiDatabase />}
+
             >
             <h3 className="vertical-timeline-element-title" style={{fontWeight:"500"}}>
             {slidesData[1][1]}
@@ -68,6 +70,9 @@ export default function Experience() {
               </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        {/* </div> */}
+
+
       </div>
     </div>
   );

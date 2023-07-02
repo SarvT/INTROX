@@ -1,6 +1,5 @@
 {
   "name": "introx",
-  "homepage": "https://sarvT.github.io/Introx/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +44,5 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.14.0"
   }
 }
