@@ -6,8 +6,9 @@
     padding: 0;
 }
 
-.subhead2{
-    font-family: 'Montserrat', sans-serif;;
+.subhead2 {
+    font-family: 'Montserrat', sans-serif;
+    ;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -15,7 +16,7 @@
 /* Projects */
 
 
-.carasoul{
+.carasoul {
     padding: 4rem;
     margin: 4rem 0;
     position: absolute;
@@ -32,7 +33,7 @@
     margin: 0 8rem;
 }
 
-.slides{
+.slides {
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -45,23 +46,23 @@
     width: 28rem;
     height: auto;
     margin: 3rem 5rem;
-    box-shadow: 12px 12px 15px 6px rgba(0, 0, 0, 0.2) ;
-    
+    box-shadow: 12px 12px 15px 6px rgba(0, 0, 0, 0.2);
+
     border: 2px solid #f5cb86;
 }
 
-.project-slide:hover{
+.project-slide:hover {
     transition: 0.2s ease-in;
-    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2);
 
 }
 
 
-.project-slide .head{
+.project-slide .head {
     font-size: 1rem;
 }
 
-.project-slide .subhead{
+.project-slide .subhead {
     font-size: 2rem;
     margin: 0;
 }
@@ -78,27 +79,27 @@
 
 /* contact */
 
-.contact{
+.contact {
     margin-top: 20rem;
     overflow: auto;
 }
 
-.contact-section{
-    margin:  4rem;
-    position: absolute;
-    left: 0;
+.contact-section {
+    margin: 4rem;
     width: 40vw;
     height: auto;
+    position: absolute;
     text-align: center;
+    left: 0;
 
 }
 
-.contact-section p{
+.contact-section p {
     opacity: 60%;
     margin-bottom: 1.4rem;
 }
 
-.form-div{
+.form-div {
     padding: 2rem;
     margin: 2rem;
     position: absolute;
@@ -109,14 +110,14 @@
     box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.5);
 }
 
-.form-div button{
-    
+.form-div button {
+
     width: 22rem;
     height: 2rem;
     border: 2px black;
     /* border-radius: 20px; */
     background-color: transparent;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5); 
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
     margin: 2rem 0;
 }
 
@@ -127,7 +128,7 @@
     padding: 0.7rem 1rem;
     border: hidden;
     /* margin: 0.7rem 1rem; */
-    
+
     /* display: inline-block; */
     /* box-sizing: border-box; */
     /* width: 100%; */
@@ -135,8 +136,8 @@
     /* vertical-align: middle; */
 }
 
-.form input::after{
-    content:'';
+.form input::after {
+    content: '';
     width: 0%;
     height: 3px;
     background: #f5cb86;
@@ -146,7 +147,7 @@
 }
 
 /* about */
-.about-me{
+.about-me {
     background-color: #17181d;
 
     padding: 4rem 0;
@@ -157,13 +158,13 @@
     height: 50vh;
     border: #f5cb86 3px solid;
     overflow: auto;
-    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2);
 }
 
 
 /* everything */
 .about {
-    
+
     height: 100vh;
     width: auto;
 }
@@ -183,8 +184,6 @@
     width: auto;
 }
 
-.about-img{
-}
 /* end */
 
 
@@ -207,17 +206,29 @@
 
 
 /* On screens that are 992px or less, set the background color to blue */
-/* @media screen and (max-width: 992px) {
+@media screen and (600px <=width) {
+    .contact {
+        margin-top: 20rem;
+    }
 
-} */
+    .contact-section {
+        margin: 4rem;
+        width: 40vw;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        left: 0;
+    }
+}
 
 
 /* On screens that are 600px or less, set the background color to olive */
-/* @media screen and (max-width: 740px) {
-    .slides{
+@media (width <= 770px) {
+    .slides {
         display: block;
-        
+
     }
+
     .project-slide {
 
         padding: 1rem;
@@ -226,46 +237,48 @@
         height: auto;
         margin: 2rem auto;
         display: block;
-        
+
     }
-    .project-slide .img{
+
+    .project-slide .img {
         font-size: 220px;
     }
-} */
-
-
+    
+    
 /* contact */
-/* .contact{
+.contact {
     margin-top: 120rem;
 }
 
-.contact-section{
+.contact-section {
     position: relative;
     margin: auto;
     margin-bottom: 1rem;
 }
 
-.form-div{
+.form-div {
     padding: 3rem;
     width: 22rem;
     margin: auto;
     left: 0;
 }
 
-.form-div input{
+.form-div input {
     width: 11rem;
     height: auto;
     text-align: center;
-} */
+}
 
 
 /* about */
-/* .about-me{
+.about-me {
+    
     width: auto;
     padding: 1rem 0;
     margin: 1.5rem;
 }
 
-.desc p{
+.desc p {
     margin: 2rem;
-} */
+}
+}

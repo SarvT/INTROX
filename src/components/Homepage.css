@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;800;900&display=swap');
 
 * {
+
     padding: 0;
     margin: 0;
     color: white;
-    ::-webkit-scrollbar{display: none;}
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
-.home-page{
+.home-page {
     /* overflow: auto; */
     width: auto;
     height: 100vh;
@@ -16,7 +20,7 @@
 }
 
 /* Top Navbar */
-.top-nav{
+.top-nav {
     padding: 1rem;
     /* position: absolute; */
     position: fixed;
@@ -24,7 +28,7 @@
     top: 0;
 }
 
-.top-nav .nav-item{
+.top-nav .nav-item {
     position: fixed;
     /* opacity: 80%; */
     margin: 0 1rem;
@@ -33,7 +37,7 @@
     /* font-size: 0.9rem; */
 }
 
-.top-nav .nav-item::after{
+.top-nav .nav-item::after {
     content: '';
     height: 3px;
     width: 0;
@@ -44,14 +48,14 @@
     transition: 0.5s;
 }
 
-.top-nav .nav-item:hover{
+.top-nav .nav-item:hover {
     transition: 0.5s;
     width: 100%;
     opacity: 100;
 }
 
 /* Logo */
-.logo{
+.logo {
     position: fixed;
     font-size: 4rem;
     margin: 1rem;
@@ -71,42 +75,42 @@ body {
 }
 
 /* Main Content */
-.main{
+.main {
     margin-top: 8rem;
     display: flex;
     /* margin-left: 15%; */
     /* position: absolute;
     top: 50;
     left: 50%; */
-    
+
     /* margin: auto; */
     /* width: 50%; */
-    
+
     /* height: 200px; */
     /* line-height: 1.5;
     vertical-align: middle;
     text-align: center; */
 }
 
-.heading{
+.heading {
     font-size: 14rem;
     /* overflow: scroll; */
     /* text-shadow: 25px 15px 15px black; */
-    filter: drop-shadow( -25px 25px 15px black);
+    filter: drop-shadow(-25px 25px 15px black);
 }
 
-.heading:hover{
+.heading:hover {
     color: #f5cb86;
     animation-name: hov;
     animation-duration: .3s;
     /* animation-timing-function: ease-out; */
 }
 
-.heading{
+.heading {
     margin: -18px;
 }
 
-.head-container{
+.head-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -117,7 +121,7 @@ body {
     height: 12rem;
 } */
 
-.main-txt p{
+.main-txt p {
     margin: 0 auto;
     /* text-align: center; */
     width: 60%;
@@ -128,46 +132,46 @@ body {
     opacity: 100%;
 } */
 
-.container{
+.container {
     text-align: center;
 }
 
-.side-bar{
-    width:25%;
+.side-bar {
+    width: 25%;
     position: absolute;
     left: 0;
     position: fixed;
     top: 25%;
-    
+
 }
 
 
-.side-bar li{
+.side-bar li {
     font-size: 2rem;
     margin: 2rem 1rem;
     opacity: 20%;
     transition: transform .3s ease;
 }
 
-ul li{
+ul li {
     list-style: none;
     /* -webkit-filter: invert(100%); */
 }
 
-li{
+li {
     filter: drop-shadow(25px 15px 15px black);
 }
 
-li:hover{
+li:hover {
     opacity: 100%;
-    
+
     /* width: 2.2rem; */
     /* animation-duration: 4s; */
     transform: scale(1.1);
     position: relative;
     left: 4px;
     /* transition: transform 3s ease; */
-    
+
 }
 
 /* img::before{
@@ -175,9 +179,10 @@ li:hover{
 } */
 
 @keyframes hov {
-    0%{
+    0% {
         transform: translateY(0%);
     }
+
     /* 25%{
         transform: translateY(-2%);
     }
@@ -187,81 +192,89 @@ li:hover{
     75%{
         transform: translateY(-3%);
     } */
-    100%{
+    100% {
         transform: translateY(-4%);
     }
 }
 
 
 /* Navigation */
-.nav-items{
+.nav-items {
     position: absolute;
     left: 0;
     bottom: 0;
     margin: 0.5rem 1rem;
-    position: fixed ;
+    position: fixed;
 }
 
-.nav-items .nav-item{
+.nav-items .nav-item {
     margin: 1rem 0rem;
     display: block;
-    
+
 }
 
-/* Set the background color of body to tan */
-body {
-    /*  */
-}
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media (600px <= width <= 1025px) {
     body {
-        
-        .heading{
+
+        .heading {
             font-size: 12rem;
             margin: -13px;
         }
-        .main-txt p{
+
+        .main-txt p {
             font-size: 0.7rem;
         }
-        .main-txt h2{
+
+        .main-txt h2 {
             font-size: 1.5rem;
         }
-        .top-nav{
+
+    }
+}
+
+@media  (width <= 600px) {
+    body {
+        .heading {
+            font-size: 6rem;
+            margin: -10px;
+        }
+        
+        .main-txt p {
+            font-size: 0.4rem;
+        }
+        
+        .main-txt h2 {
+            font-size: 0.8rem;
+        }
+        
+        .side-bar li {
+            font-size: 1.4rem;
+        }
+        .top-nav {
             visibility: hidden;
         }
-
-        .logo{
+        
+        .logo {
             font-size: 4rem;
             z-index: 1;
         }
-
-        .home-page{
+        
+        .home-page {
             margin-bottom: -14rem;
         }
-
-        .nav-items{
+        
+        .nav-items {
             z-index: 1;
         }
     }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 740px) {
-    body {
-        /* width: 50%; */
-        .heading{
-            font-size: 6rem;
-            margin: -10px;
-        }
-        .main-txt p{
-            font-size: 0.4rem;
-        }
-        .main-txt h2{
-            font-size: 0.8rem;
-        }
-        .side-bar li{
-            font-size: 1.4rem;
-        }
-    }
-  }
+
+
+/* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones } */
+/* @media (min-width:481px)  { portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. } */
+/* @media (min-width:641px)  { portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones } */
+/* @media (min-width:961px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops } */

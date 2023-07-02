@@ -8,7 +8,7 @@ export default function About() {
       <div id="about" className="about" style={{marginTop:"20rem"}}>
         <h3 className="subhead">about</h3>
 
-        <div className="about-me" style={{width:"40vw", position:"absolute"}}>
+        <div className="about-me">
 
         <span className="desc">
           <p>
