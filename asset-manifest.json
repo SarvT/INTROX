@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Introx/static/css/main.8828771c.css",
-    "main.js": "/Introx/static/js/main.7d00d369.js",
-    "static/js/787.39f97fe1.chunk.js": "/Introx/static/js/787.39f97fe1.chunk.js",
-    "static/media/comp-desk.jpg": "/Introx/static/media/comp-desk.7aedd59ef260274e979b.jpg",
-    "index.html": "/Introx/index.html",
-    "main.8828771c.css.map": "/Introx/static/css/main.8828771c.css.map",
-    "main.7d00d369.js.map": "/Introx/static/js/main.7d00d369.js.map",
-    "787.39f97fe1.chunk.js.map": "/Introx/static/js/787.39f97fe1.chunk.js.map"
+    "main.css": "/INTROX/static/css/main.f8b3b389.css",
+    "main.js": "/INTROX/static/js/main.df95f081.js",
+    "static/js/787.39f97fe1.chunk.js": "/INTROX/static/js/787.39f97fe1.chunk.js",
+    "static/media/comp-desk.jpg": "/INTROX/static/media/comp-desk.7aedd59ef260274e979b.jpg",
+    "index.html": "/INTROX/index.html",
+    "main.f8b3b389.css.map": "/INTROX/static/css/main.f8b3b389.css.map",
+    "main.df95f081.js.map": "/INTROX/static/js/main.df95f081.js.map",
+    "787.39f97fe1.chunk.js.map": "/INTROX/static/js/787.39f97fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8828771c.css",
-    "static/js/main.7d00d369.js"
+    "static/css/main.f8b3b389.css",
+    "static/js/main.df95f081.js"
   ]
 }
