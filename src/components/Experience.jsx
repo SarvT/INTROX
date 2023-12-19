@@ -4,6 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import { FiInbox, FiCloud, FiDatabase } from "react-icons/fi";
 import 'react-vertical-timeline-component/style.min.css';
 
+// "homepage": "https://sarvt.github.io/INTROX/",
 
 const slidesData = [
   [

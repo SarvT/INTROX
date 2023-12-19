@@ -214,7 +214,7 @@ li:hover {
 }
 
 
-@media (600px <= width <= 1025px) {
+/* @media (600px <= width <= 1025px) {
     body {
 
         .heading {
@@ -231,9 +231,9 @@ li:hover {
         }
 
     }
-}
+} */
 
-@media  (width <= 600px) {
+@media  (width <= 641px) {
     body {
         .heading {
             font-size: 6rem;
@@ -267,9 +267,16 @@ li:hover {
         .nav-items {
             z-index: 1;
         }
+        .form-div{
+            margin-top: 84px;
+            /* margin-bottom: 54px; */
+        }
     }
 }
 
+.subhead2{
+    margin-top: 24px;
+}
 
 
 /* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones } */

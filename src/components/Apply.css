@@ -46,7 +46,7 @@
     width: 28rem;
     height: auto;
     margin: 3rem 5rem;
-    box-shadow: 12px 12px 15px 6px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 12px 12px 15px 6px rgba(0, 0, 0, 0.2); */
 
     border: 2px solid #f5cb86;
 }
@@ -147,18 +147,32 @@
 }
 
 /* about */
+/* .about{
+    display: flex;
+
+} */
+
+div.about-img img {
+    height: 22rem;
+    /* right: 0; */
+    /* position: absolute; */
+    /* margin: 0 12rem; */
+    
+    mix-blend-mode: multiply;
+}
+
 .about-me {
     background-color: #17181d;
 
     padding: 4rem 0;
     margin: 4rem 4rem;
-    position: absolute;
+    /* position: absolute; */
     left: 0%;
-    width: 50vw;
+    width: 40vw;
     height: 50vh;
     border: #f5cb86 3px solid;
     overflow: auto;
-    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2); */
 }
 
 
@@ -223,7 +237,7 @@
 
 
 /* On screens that are 600px or less, set the background color to olive */
-@media (width <= 770px) {
+@media (width <=770px) {
     .slides {
         display: block;
 
@@ -243,42 +257,42 @@
     .project-slide .img {
         font-size: 220px;
     }
-    
-    
-/* contact */
-.contact {
-    margin-top: 120rem;
-}
-
-.contact-section {
-    position: relative;
-    margin: auto;
-    margin-bottom: 1rem;
-}
-
-.form-div {
-    padding: 3rem;
-    width: 22rem;
-    margin: auto;
-    left: 0;
-}
-
-.form-div input {
-    width: 11rem;
-    height: auto;
-    text-align: center;
-}
 
 
-/* about */
-.about-me {
-    
-    width: auto;
-    padding: 1rem 0;
-    margin: 1.5rem;
-}
+    /* contact */
+    .contact {
+        margin-top: 120rem;
+    }
 
-.desc p {
-    margin: 2rem;
-}
+    .contact-section {
+        position: relative;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .form-div {
+        padding: 3rem;
+        width: 22rem;
+        margin: auto;
+        left: 0;
+    }
+
+    .form-div input {
+        width: 11rem;
+        height: auto;
+        text-align: center;
+    }
+
+
+    /* about */
+    .about-me {
+
+        width: auto;
+        padding: 1rem 0;
+        margin: 1.5rem;
+    }
+
+    .desc p {
+        margin: 2rem;
+    }
 }

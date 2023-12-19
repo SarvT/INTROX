@@ -3,7 +3,6 @@ import Typed from "typed.js";
 import "./Homepage.css";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
-import About from "./About";
 import Experience from "./Experience";
 import Project from "./Projects";
 import { animateScroll as scroll, scroller } from "react-scroll";
@@ -56,9 +55,9 @@ export default function Homepage() {
               offset={-70}
               duration={500}
             >
-              Homepage
+              Sarvesh Dhangar
             </Link>
-            <Link
+            {/* <Link
               // to={"projects"}
               className="nav-item"
               onClick={scroll.scrollTo(111, {})}
@@ -91,18 +90,7 @@ export default function Homepage() {
               duration={500}
             >
               Contact
-            </Link>
-            <Link
-              className="nav-item"
-              onClick={scroll.scrollToBottom}
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About
-            </Link>
+            </Link> */}
           </div>
         </nav>
 
@@ -151,7 +139,6 @@ export default function Homepage() {
       <Experience />
       <Project />
       <Contact />
-      <About />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Apply.css";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -9,12 +10,12 @@ export default function Contact() {
         <div className="contact-section">
         <h3 className="subhead">contact</h3>
 
-        <h4 className="subhead2">Phone</h4>
-        <p>1800 203 203</p>
-        <h4 className="subhead2">LinkdIn</h4>
-        <p>Click Here!</p>
+        {/* <h4 className="subhead2">Phone</h4>
+        <p>1800 203 203</p> */}
+        <h4 className="subhead2" style={{}}>LinkdIn</h4>
+        <Link to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}>Click Here!</Link>
         <h4 className="subhead2">Email</h4>
-        <p>example@gmail.com</p>
+        <a href="mailto:motesarv@gmail.com">motesarv@gmail.com</a>
           </div>
 
           
