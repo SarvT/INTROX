@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/INTROX/static/css/main.6b27cef2.css",
-    "main.js": "/INTROX/static/js/main.4183446b.js",
+    "main.css": "/INTROX/static/css/main.1bd7f405.css",
+    "main.js": "/INTROX/static/js/main.60193982.js",
     "static/js/787.39f97fe1.chunk.js": "/INTROX/static/js/787.39f97fe1.chunk.js",
+    "static/media/comp-desk.jpg": "/INTROX/static/media/comp-desk.7aedd59ef260274e979b.jpg",
     "index.html": "/INTROX/index.html",
-    "main.6b27cef2.css.map": "/INTROX/static/css/main.6b27cef2.css.map",
-    "main.4183446b.js.map": "/INTROX/static/js/main.4183446b.js.map",
+    "main.1bd7f405.css.map": "/INTROX/static/css/main.1bd7f405.css.map",
+    "main.60193982.js.map": "/INTROX/static/js/main.60193982.js.map",
     "787.39f97fe1.chunk.js.map": "/INTROX/static/js/787.39f97fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b27cef2.css",
-    "static/js/main.4183446b.js"
+    "static/css/main.1bd7f405.css",
+    "static/js/main.60193982.js"
   ]
 }
