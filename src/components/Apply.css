@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* max-width: 100%; */
 }
 
 .subhead2 {
@@ -19,9 +20,9 @@
 .carasoul {
     padding: 4rem;
     margin: 4rem 0;
-    position: absolute;
+    /* position: absolute; */
     /* top: 50%; */
-    right: 50%;
+    /* right: 50%; */
     max-width: 40rem;
 }
 
@@ -52,8 +53,12 @@
 }
 
 .project-slide:hover {
-    transition: 0.2s ease-in;
-    box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in;
+    border-radius: 35px;
+background: linear-gradient(145deg, #15161a, #191a1f);
+box-shadow:  
+             -35px -35px 70px #1a1c21,35px 35px 70px #141419,;
+    /* box-shadow: 18px 18px 25px 12px rgba(0, 0, 0, 0.2); */
 
 }
 
@@ -81,7 +86,7 @@
 
 .contact {
     margin-top: 20rem;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .contact-section {
@@ -92,7 +97,52 @@
     text-align: center;
     left: 0;
 
+    /* text-align: center; */
 }
+
+.contact-slogan{
+    /* width: 20vw; */
+    margin: 0 48px ;
+}
+
+.contact-section Link, a{
+    margin: 28px 10px ;
+    /* padding: 12px; */
+}
+
+
+
+.icon-link {
+    text-decoration: none; /* Remove default underline for the link */
+  }
+
+  .icon-row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px; /* Adjust the height and width as needed */
+    width: 48px;
+  }
+  
+  .icon-background {
+
+    /* background-color: #fff; Twitter blue color, change as needed */
+    border-radius: 90%; /* Creates a circular background */
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  .twitter-icon {
+    
+    color: #f5cb86; /* Icon color, change as needed */
+  }
+  
+
+
 
 .contact-section p {
     opacity: 60%;
@@ -107,20 +157,68 @@
     /* height: auto; */
     width: 40vw;
 
-    box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+background: #17181d;
+box-shadow:  35px 35px 70px #141419,
+             -35px -35px 70px #1a1c21;
+    /* box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.5); */
 }
 
-.form-div button {
+/* .form-div button {
 
     width: 22rem;
     height: 2rem;
     border: 2px black;
-    /* border-radius: 20px; */
     background-color: transparent;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
     margin: 2rem 0;
-}
 
+    
+} */
+
+
+button {
+    margin-top: 6px;
+    padding: 0.1em 0.25em;
+    width: 28em;
+    height: 3.7em;
+    background-color: #17181d;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    margin: 2rem 0;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 18.25em;
+    height: 2.1em;
+    background-color: #17181d;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  
+  
+  
+
+  
+  
 
 .form input {
     background-color: transparent;
@@ -176,6 +274,7 @@ div.about-img img {
 }
 
 
+
 /* everything */
 .about {
 
@@ -204,36 +303,45 @@ div.about-img img {
 .subhead {
     text-transform: uppercase;
     font-size: 2.5rem;
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
     text-align: center;
 }
 
 .desc p {
     margin: 1rem 6rem;
     text-align: center;
-    max-width: 42rem;
+    max-width: 100%;
     /* width: 80; */
     /* display: flex;
     justify-content: center; */
 }
 
+.resume-intro{
+    width: 40vw;
+    text-align: center;
+}
+
+.resume-btn{
+    transform: translateX(calc(-3 * ((0% - 140px) / 3)));
+}
+
 
 
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (600px <=width) {
-    .contact {
+/* @media screen and (600px <=width) { */
+    /* .contact {
         margin-top: 20rem;
     }
 
     .contact-section {
-        margin: 4rem;
+        margin: auto ;
         width: 40vw;
         height: auto;
         position: absolute;
         text-align: center;
         left: 0;
-    }
-}
+    } */
+/* } */
 
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -246,53 +354,140 @@ div.about-img img {
     .project-slide {
 
         padding: 1rem;
-        max-width: 20rem;
-        width: 20rem;
+        max-width: 80vw;
+        /* width: auto; */
         height: auto;
-        margin: 2rem auto;
+        margin: 10px auto;
         display: block;
 
     }
 
     .project-slide .img {
-        font-size: 220px;
+        margin-top: 18px;
+        font-size: 100px;
     }
 
 
     /* contact */
     .contact {
-        margin-top: 120rem;
+        /* width: 80vw; */
+        margin-top: 110rem;
+        
+    }
+
+
+    button {
+        margin-top: 6px;
+        padding: 0.1em 0.25em;
+        width: 35vw;
+        height: 3.7em;
+        background-color: #17181d;
+        border: 0.08em solid #fff;
+        border-radius: 0.3em;
+        font-size: 8px;
+        margin: 2rem 0;
+      }
+      
+      button span {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0.4em;
+        width: 34vw;
+        height: 2.1em;
+        background-color: #17181d;
+        border-radius: 0.2em;
+        font-size: 1.5em;
+        color: #fff;
+        border: 0.08em solid #fff;
+        box-shadow: 0 0.4em 0.1em 0.019em #fff;
+      }
+      
+
+    .resume-intro{
+        width: 60vw;
+        font-size: small;
+        text-align: center;
     }
 
     .contact-section {
+        width: 60vw;
         position: relative;
-        margin: auto;
-        margin-bottom: 1rem;
+        /* margin: auto; */
+        /* margin-bottom: 10vh; */
+    }
+
+    .about-div{
+        /* justify-content: center;
+        align-items: center;
+        padding: 12px; */
+    }
+
+    .subhead{
+        font-size: x-large;
+
+    }
+
+    .subhead2{
+        font-size: large;
+    }
+
+    .subhead2 Link, a{
+        font-size: small;
     }
 
     .form-div {
-        padding: 3rem;
-        width: 22rem;
+        /* padding: 3rem; */
+        width: 70vw;
         margin: auto;
         left: 0;
+        margin-bottom: 10vh;
+    }
+
+    /* .form-div button{
+        width: 70vw;
+    } */
+
+    .form-div .subhead{
+        /* padding: 12px; */
+        font-size: x-large;
+    }
+
+    .form-div label{
+        font-size: small;
     }
 
     .form-div input {
-        width: 11rem;
+        font-size: smaller;
+        width: 60vw;
         height: auto;
         text-align: center;
     }
+
+    .contact-slogan{
+        /* width: 20vw; */
+        margin: 0 22px ;
+    }
+
+    .contact a{
+        font-size: small;
+    }
+    *{
+            
+        max-width: 100%;
+            }
 
 
     /* about */
     .about-me {
 
-        width: auto;
+        /* width: auto; */
         padding: 1rem 0;
-        margin: 1.5rem;
+        /* margin: 1.5rem; */
     }
 
     .desc p {
-        margin: 2rem;
+        /* margin: 2rem; */
     }
 }

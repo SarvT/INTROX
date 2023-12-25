@@ -24,7 +24,7 @@ const slidesData = [
 export default function Experience() {
   return (
     <div>
-      <div className="experience" id="experience" style={{marginTop:"20rem"}}>
+      <div className="experience" id="experience" style={{marginTop:"8vh", margin:"0px 16px"}}>
         <h3 className="subhead">experience</h3>
 
         {/* <div className="vertical-timeline"> */}

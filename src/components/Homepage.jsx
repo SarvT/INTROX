@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Project from "./Projects";
+import About from "./About";
 import { animateScroll as scroll, scroller } from "react-scroll";
 
 import {
@@ -37,7 +38,7 @@ export default function Homepage() {
         {/* Logo */}
         <div className="logo">
           <Link onClick={scroll.scrollToTop}>
-            <FiCode />
+            <FiCode size={56}/>
           </Link>
         </div>
 
@@ -97,14 +98,14 @@ export default function Homepage() {
         {/* Main Heading */}
         <div class="main">
           <div class="head-container">
-            <h2 class="heading container">S</h2>
-            <h2 class="heading container">a </h2>
-            <h2 class="heading container">m</h2>
-            <h2 class="heading container">H</h2>
-            <h2 class="heading container">e</h2>
-            <h2 class="heading container">r</h2>
-            <h2 class="heading container">e</h2>
-            <h2 class="heading container">!</h2>
+            <p class="heading container sc-head">S</p>
+            <p class="heading container sc-head">a </p>
+            <p class="heading container sc-head">m</p>
+            <p class="heading container sc-head">H</p>
+            <p class="heading container sc-head">e</p>
+            <p class="heading container sc-head">r</p>
+            <p class="heading container sc-head">e</p>
+            <p class="heading container sc-head">!</p>
           </div>
         </div>
 
@@ -125,20 +126,23 @@ export default function Homepage() {
               className="nav-item"
               to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}
             >
-              {" "}
-              <FiLinkedin />{" "}
+              <FiLinkedin />
             </Link>
             <Link className="nav-item" to={"https://leetcode.com/sarveshmt_/"}>
-              {" "}
+
               <FiCode />
             </Link>
           </div>
         </nav>
       </div>
 
+      {/* <div style={{height:"100vh"}}></div> */}
       <Experience />
+      {/* <div style={{height:"100vh"}}></div> */}
       <Project />
+      {/* <div style={{height:"100vh"}}></div> */}
       <Contact />
+      <About/>
     </>
   );
 }

@@ -10,3 +10,4 @@ function App() {
 }
 
 export default App;
+// "homepage": "https://sarvt.github.io/INTROX/",

@@ -5,10 +5,14 @@
     padding: 0;
     margin: 0;
     color: white;
+    
+    max-width: none;
 
     ::-webkit-scrollbar {
         display: none;
     }
+
+    /* overflow: hidden; */
 }
 
 .home-page {
@@ -99,12 +103,24 @@ body {
     filter: drop-shadow(-25px 25px 15px black);
 }
 
-.heading:hover {
+/* .heading:hover {
     color: #f5cb86;
     animation-name: hov;
-    animation-duration: .3s;
-    /* animation-timing-function: ease-out; */
-}
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+} */
+
+.heading:hover {
+    color: #f5cb86;
+    transition: all 0.5s;
+    transform: translate(0, 0.2em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .heading:not(hover) {
+    transition: all 1s;
+  }
+
 
 .heading {
     margin: -18px;
@@ -124,7 +140,7 @@ body {
 .main-txt p {
     margin: 0 auto;
     /* text-align: center; */
-    width: 60%;
+    max-width: 60%;
     /* opacity: 80%; */
 }
 
@@ -142,8 +158,29 @@ body {
     left: 0;
     position: fixed;
     top: 25%;
-
 }
+
+
+
+
+
+
+.main {
+  text-align: center;
+}
+
+.head-container {
+  /* display: inline-block; */
+}
+
+.heading {
+  /* Add your styles for the headings here */
+  /* display: inline-block; */
+  margin: 0; /* Remove default margin for better centering */
+}
+
+
+
 
 
 .side-bar li {
@@ -180,20 +217,20 @@ li:hover {
 
 @keyframes hov {
     0% {
-        transform: translateY(0%);
+        transform: translateY(0.2%);
     }
 
-    /* 25%{
+    25%{
         transform: translateY(-2%);
     }
     50%{
-        transform: translateY(-2%);
+        transform: translateY(-3%);
     }
     75%{
-        transform: translateY(-3%);
-    } */
-    100% {
         transform: translateY(-4%);
+    }
+    100% {
+        transform: translateY(-5%);
     }
 }
 
@@ -233,11 +270,20 @@ li:hover {
     }
 } */
 
-@media  (width <= 641px) {
+@media  (max-width: 770px) {
     body {
         .heading {
-            font-size: 6rem;
+            font-size: 66px;
             margin: -10px;
+        }
+
+       
+        .main h2{
+            /* font-size: medium; */
+        }
+
+        .sc-head{
+            width: 15vw;
         }
         
         .main-txt p {
@@ -245,7 +291,7 @@ li:hover {
         }
         
         .main-txt h2 {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
         
         .side-bar li {
@@ -256,7 +302,7 @@ li:hover {
         }
         
         .logo {
-            font-size: 4rem;
+            font-size: 3rem;
             z-index: 1;
         }
         
@@ -271,12 +317,12 @@ li:hover {
             margin-top: 84px;
             /* margin-bottom: 54px; */
         }
+
+
+
     }
 }
 
-.subhead2{
-    margin-top: 24px;
-}
 
 
 /* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones } */

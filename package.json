@@ -1,5 +1,7 @@
+
 {
   "name": "introx",
+  "homepage": "https://sarvt.github.io/INTROX/",
   "version": "0.1.1",
   "private": true,
   "dependencies": {

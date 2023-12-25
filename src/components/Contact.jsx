@@ -1,6 +1,7 @@
 import React from "react";
 import "./Apply.css";
 import { Link } from "react-router-dom";
+import { FiLinkedin, FiTwitter, FiMail,  } from "react-icons/fi";
 
 export default function Contact() {
   return (
@@ -12,10 +13,39 @@ export default function Contact() {
 
         {/* <h4 className="subhead2">Phone</h4>
         <p>1800 203 203</p> */}
-        <h4 className="subhead2" style={{}}>LinkdIn</h4>
-        <Link to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}>Click Here!</Link>
-        <h4 className="subhead2">Email</h4>
-        <a href="mailto:motesarv@gmail.com">motesarv@gmail.com</a>
+        <p className="contact-slogan">Sharing thoughts make good connections. Don't fill shy, Give a visit with just a click below!</p>
+        {/* <h4 className="subhead2" style={{}}>One click Connect!</h4> */}
+        <div className="icon-row">
+
+        {/* <Link  to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}><FiLinkedin size={24}/></Link> */}
+        <Link to={"https://x.com/SarvT_3?"}>
+          <div className="icon-container">
+            <div className="icon-background">
+          < FiTwitter size={24}/>
+
+            </div>
+          </div>
+          </Link>
+        <Link to={"http://www.linkedin.com/in/sarvesh-mote-881818221"}>
+          <div className="icon-container">
+            <div className="icon-background">
+          <FiLinkedin size={24}/>
+
+            </div>
+          </div>
+          </Link>
+        <Link to={"mailto:motesarv@gmail.com"}>
+          <div className="icon-container">
+            <div className="icon-background">
+          <FiMail size={24}/>
+
+            </div>
+          </div>
+          </Link>
+        {/* <Link to={"mailto:motesarv@gmail.com"}><FiMail size={24}/></Link> */}
+        {/* <h4 className="subhead2">Email</h4> */}
+        {/* <a href="mailto:motesarv@gmail.com">motesarv@gmail.com</a> */}
+        </div>
           </div>
 
           
@@ -44,7 +74,12 @@ export default function Contact() {
               <input type="text" id="desc" placeholder="related information!" />
               </div>
 
-              <button type="submit" formAction="submit" id="submit">Submit</button>
+              <button type="submit" formAction="submit" id="submit">
+                <span>
+
+                Submit
+                </span>
+                </button>
             </form>
         </div>
       </div>
